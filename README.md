@@ -43,14 +43,3 @@ clone工程之后直接打开`guifw.sln`编译即可，注意启动工程需要�
 
 需要使用VS2008或者更高版本编译
 
-
-## 支持我
-
-如果GUIFW能帮到你并且你愿意，欢迎对我支持
-
-### 支付宝扫码
-<img src="https://github.com/arlins/Personal/blob/master/ali-pay.jpg" alt="支付宝扫码" width="300" height="300" />
-
-
-
-
