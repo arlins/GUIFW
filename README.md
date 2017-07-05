@@ -48,9 +48,6 @@ clone工程之后直接打开`guifw.sln`编译即可，注意启动工程需要�
 ### 支付宝扫码
 <img src="https://github.com/arlins/Personal/blob/master/ali-pay.jpg" alt="支付宝扫码" width="300" height="300">
 
-### 微信扫码
-<img src="https://github.com/arlins/Personal/blob/master/wx-pay.jpg" alt="微信扫码" width="300" height="300">
-
 
 
 
