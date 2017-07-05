@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlui>
+	<MainWindow defaultSize="340,580" minimizeSize="340,580" windowTitle="QQ" windowIcon="theme/qq/win_icon.png" backgroundImage="theme/defaultbg.png">
+		<GuiWidget objectName="widgetContainter" layout="VBox" backgroundColor="1,255,255,255">
+			<GuiWidget objectName="titleBarWidget" layout="HBox" fixHeight="30">
+				<GuiWidget fixWidth="6"/>
+				<GuiWidget layout="VBox" fixWidth="60">
+					<GuiWidget fixHeight="8"/>
+					<GuiLabelWidget fixHeight="15" text="QQ2014" textColor="255,255,255" textSize="10"/>
+					<GuiWidget />
+				</GuiWidget>
+				<GuiWidget/>
+				<GuiWidget layout="VBox" fixWidth="96">
+					<GuiWidget layout="HBox" fixHeight="19">
+						<GuiPushButton objectName="minButton" fixWidth="28" imagePath="theme/btn_min_normal.png|theme/btn_min_hover.png|theme/btn_min_press.png"/>
+						<GuiPushButton objectName="maxButton" fixWidth="28" imagePath="theme/btn_max_normal.png|theme/btn_max_hover.png|theme/btn_max_press.png"/>
+						<GuiPushButton objectName="closeButton" fixWidth="39" imagePath="theme/btn_close_normal.png|theme/btn_close_hover.png|theme/btn_close_press.png"/>
+						<GuiWidget />
+					</GuiWidget>
+					<GuiWidget />
+				</GuiWidget>
+				<GuiWidget fixWidth="2"/>
+			</GuiWidget>
+			<GuiWidget objectName="personInfoWidget" fixHeight="58" layout="HBox">
+				<GuiWidget fixWidth="10"/>
+				<GuiImageWidget objectName="headImageWidget" fixWidth="58" layout="HBox" imagePath="theme/qq/man_big.png"/>
+				<GuiWidget layout="VBox">
+					<GuiWidget fixHeight="12"/>
+					<GuiWidget layout="HBox" fixHeight="20">
+						<GuiLabelWidget fixWidth="30" text="白林" textColor="255,255,255" textSize="8"/>
+						<GuiWidget fixWidth="2"/>
+						<GuiPushButton fixWidth="20" iconPath="theme/qq/icon_a.png"/>
+						<GuiWidget/>
+					</GuiWidget>
+					<GuiWidget fixHeight="2"/>
+					<GuiLabelWidget text="编辑个性签名" fixHeight="15" textColor="255,255,255" textSize="8"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget layout="VBox" fixWidth="48">
+					<GuiWidget/>
+					<BackgroundImageWidget objectName="weatherImageWidget" fixHeight="48" imagePath="theme/qq/s_a1.png"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget fixWidth="12"/>
+			</GuiWidget>
+			<GuiWidget fixHeight="4"/>
+			<GuiWidget fixHeight="20" layout="HBox">
+				<GuiWidget fixWidth="10"/>
+				<GuiPushButton fixWidth="20" iconPath="theme/qq/friend_circle.png"/>
+				<GuiPushButton fixWidth="20" iconPath="theme/qq/mail.png"/>
+				<GuiPushButton fixWidth="20" iconPath="theme/qq/MainPanelServiceBarExt_XiaoYou.png"/>
+				<GuiPushButton fixWidth="20" iconPath="theme/qq/soso.png"/>
+				<GuiWidget/>
+				<GuiPushButton objectName="msgBoxButton" fixWidth="24" iconPath="theme/qq/MsgBox.png"/>
+				<GuiWidget fixWidth="2"/>
+				<GuiPushButton objectName="wirelessButton" fixWidth="24" iconPath="theme/qq/Wireless.png"/>
+				<GuiWidget fixWidth="2"/>
+				<GuiPushButton objectName="skinButton" fixWidth="24" iconPath="theme/qq/color.png"/>
+				<GuiWidget fixWidth="2"/>
+				<GuiWidget fixWidth="10"/>
+			</GuiWidget>
+			<GuiWidget fixHeight="4"/>
+			<GuiWidget objectName="middleWidget" layout="VBox" backgroundColor="50,255,255,255" xmlPath="layout/middlewidget.xml"/>
+			<GuiWidget fixHeight="8"/>
+			<GuiWidget fixHeight="20" layout="HBox">
+				<GuiWidget fixWidth="10"/>
+				<GuiPushButton fixWidth="24" iconPath="theme/qq/game.png"/>
+				<GuiPushButton fixWidth="24" iconPath="theme/qq/pet.png"/>
+				<GuiPushButton fixWidth="24" iconPath="theme/qq/live.png"/>
+				<GuiPushButton fixWidth="24" iconPath="theme/qq/music.png"/>
+				<GuiWidget/>
+			</GuiWidget>
+			<GuiWidget fixHeight="6"/>
+			<GuiWidget layout="HBox" fixHeight="40">
+				<GuiWidget fixWidth="10"/>
+				<GuiPushButton fixWidth="40" imagePath="theme/qq/menu_btn_normal.png|theme/qq/menu_btn_highlight.png|theme/qq/menu_btn_normal.png"/>
+				<GuiWidget fixWidth="10"/>
+				<GuiWidget layout="VBox">
+					<GuiWidget fixHeight="10"/>
+					<GuiWidget layout="HBox" fixHeight="20">
+						<GuiPushButton fixWidth="20" iconPath="theme/qq/Tools.png"/>
+						<GuiPushButton fixWidth="20" iconPath="theme/qq/QQSafe.png"/>
+						<GuiPushButton fixWidth="20" iconPath="theme/qq/message.png"/>
+						<GuiWidget/>
+					</GuiWidget>
+					<GuiWidget/>
+				</GuiWidget>
+			</GuiWidget>
+			<GuiWidget fixHeight="8"/>
+		</GuiWidget>
+	</MainWindow>
+</xmlui>

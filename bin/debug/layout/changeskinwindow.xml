@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlui>
+	<ChangeSkinWindow fixSize="300,200" windowTitle="主题更换" windowIcon="theme/qq/win_icon.png" backgroundImage="theme/defaultbg.png">
+		<GuiWidget objectName="widgetContainter" layout="VBox" backgroundColor="1,255,255,255">
+			<GuiWidget objectName="titleBarWidget" layout="HBox" fixHeight="30" backgroundColor="0,200,200,200">
+				<GuiWidget fixWidth="8"/>
+				<GuiWidget layout="VBox" fixWidth="60">
+					<GuiWidget fixHeight="8"/>
+					<GuiLabelWidget fixHeight="19" text="主题更换" textColor="255,255,255"/>
+					<GuiWidget />
+				</GuiWidget>
+				<GuiWidget/>
+				<GuiWidget layout="VBox" fixWidth="67">
+					<GuiWidget layout="HBox" fixHeight="19">
+						<GuiPushButton objectName="minButton" fixWidth="28" imagePath="theme/btn_min_normal.png|theme/btn_min_hover.png|theme/btn_min_press.png"/>
+						<GuiPushButton objectName="closeButton" fixWidth="39" imagePath="theme/btn_close_normal.png|theme/btn_close_hover.png|theme/btn_close_press.png"/>
+						<GuiWidget />
+					</GuiWidget>
+					<GuiWidget />
+				</GuiWidget>
+				<GuiWidget fixWidth="2"/>
+			</GuiWidget>
+			
+			<GuiWidget layout="HBox" backgroundColor="50,255,255,255">
+				<GuiWidget/>
+				<GuiWidget fixWidth="55" layout="VBox">
+					<GuiWidget fixHeight="30"/>
+					<GuiLabelWidget fixHeight="19" text="红：" textColor="255,0,0"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget fixHeight="19" text="绿：" textColor="0,255,0"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget fixHeight="19" text="蓝：" textColor="0,0,255"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget fixHeight="19" text="透明度：" textColor="255,255,255"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget fixWidth="120" layout="VBox">
+					<GuiWidget fixHeight="30"/>
+					<GuiSliderWidget objectName="redSliderWidget" backgroundImagePath="theme/qq/redslider_bk.png" fixHeight="19"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiSliderWidget objectName="greenSliderWidget" backgroundImagePath="theme/qq/greenslider_bk.png" fixHeight="19"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiSliderWidget objectName="blueSliderWidget" backgroundImagePath="theme/qq/buleslider_bk.png" fixHeight="19"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiSliderWidget objectName="alphaSliderWidget" backgroundImagePath="theme/qq/alphaslider_bk.png" fixHeight="19"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget fixWidth="4"/>
+				<GuiWidget fixWidth="30" layout="VBox">
+					<GuiWidget fixHeight="30"/>
+					<GuiLabelWidget objectName="redValueLabel" fixHeight="19" text="255" textColor="255,255,255"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget objectName="greenValueLabel" fixHeight="19" text="255" textColor="255,255,255"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget objectName="blueValueLabel" fixHeight="19" text="255" textColor="255,255,255"/>
+					<GuiWidget fixHeight="6"/>
+					<GuiLabelWidget objectName="alphaValueLabel" fixHeight="19" text="255" textColor="255,255,255"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget fixWidth="10"/>
+				<GuiWidget fixWidth="22" layout="VBox">
+					<GuiWidget fixHeight="46"/>
+					<GuiPushButton objectName="randChangeSkinButton" fixHeight="22" iconPath="theme/qq/skin.png"/>
+					<GuiWidget fixHeight="20"/>
+					<GuiPushButton objectName="disableSkinButton" fixHeight="22" iconPath="theme/qq/icon_pic.png"/>
+					<GuiWidget/>
+				</GuiWidget>
+				<GuiWidget/>
+			</GuiWidget>
+		</GuiWidget>
+	</ChangeSkinWindow>
+</xmlui>

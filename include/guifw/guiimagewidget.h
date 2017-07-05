@@ -1,0 +1,1 @@
+#include "../../guifw/widgets/guiimagewidget.h"

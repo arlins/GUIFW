@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmlui>
+	<GuiWidget objectName="middleContainterWidget" layout="HBox">
+		<GuiWidget fixWidth="2"/>
+		<GuiScrollWidget objectName="scrollWidget" backgroundColor="230,240,240,240">
+			<GuiWidget layout="VBox" objectName="contentWidget" fixHeight="1000">
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+				<GuiWidget backgroundColor="230,210,210,210" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,250,250,250" fixHeight="1"/>
+				<GuiWidget backgroundColor="230,240,240,240"/>
+			</GuiWidget>
+		</GuiScrollWidget>
+		<GuiWidget fixWidth="2"/>
+	</GuiWidget>
+</xmlui>
