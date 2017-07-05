@@ -10,9 +10,9 @@ GUIFW只实现了基本框架，目前还很粗糙，存在性能以及控件支
 
 ## 框架简介
 
-(https://github.com/arlins/GUIFW/blob/master/support-files/5.png)
+下图是GUIFW的框架图，其中底层是core模块，用于为上层和外部提供最基本的支持，基于core模块可以扩展各种各样的控件，对话框等，最终形成一个完整的皮肤库
 
-上图是guifw的框架图，其中底层是core模块，用于为上层和外部提供最基本的支持，基于core模块可以扩展各种各样的控件，对话框等，最终形成一个完整的皮肤库
+![](https://github.com/arlins/GUIFW/blob/master/support-files/5.png)
 
 1: xmlui主要实现了动态创建功能
 
@@ -26,11 +26,12 @@ GUIFW只实现了基本框架，目前还很粗糙，存在性能以及控件支
 
 6: widget是每个窗口里面最基本的元素，也即GuiWidget，一个窗口的界面由若干个widget组成，所有的控件都由它派生，整个界面数据结构是由一颗每个节点是widget组成的树。
 
-7: painter跟窗口有关，每个窗口都有一个painter，在需要绘制的时候将painter传给需要重绘区域里面的所有widget，guifw里面采用的绘图引擎是gdi+。实际上painter就是封装了对一个窗口相关的Bitmap的绘图操作，所有的widget都在这张bitmap上面画图，最终绘制出来一个窗口就是一张图。
+7: painter跟窗口有关，每个窗口都有一个painter，在需要绘制的时候将painter传给需要重绘区域里面的所有widget，GUIFW里面采用的绘图引擎是gdi+。实际上painter就是封装了对一个窗口相关的Bitmap的绘图操作，所有的widget都在这张bitmap上面画图，最终绘制出来一个窗口就是一张图。
 
 8: eventdispatcher是事件派发者，包括application将事件派发给所有的窗口以及窗口派发事件给需要响应的widget两部分
 
-## 博客
+## 详细了解
+
 待补充
 
 ## 如何编译
@@ -40,11 +41,13 @@ clone工程之后直接打开`guifw.sln`编译即可，注意启动工程需要�
 需要使用VS2008或者更高版本编译
 
 
-## 捐赠
-如果GUIFW能帮到你并且你愿意，欢迎对我支持
 
+### 如果GUIFW能帮到你并且你愿意，欢迎对我支持
+
+#### [支付宝扫码]
 ![支付宝扫码](https://github.com/arlins/Personal/blob/master/ali-pay.jpg)
 
+#### [微信扫码]
 ![微信扫码](https://github.com/arlins/Personal/blob/master/wx-pay.jpg)
 
 
