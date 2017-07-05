@@ -8,6 +8,9 @@ GUIFW只实现了基本框架，目前还很粗糙，存在性能以及控件支
 
 基于目前GUIFW的现状，个人建议是在实现安装包的时候使用GUIFW，如果需要在项目当中使用皮肤引擎，笔者强烈建议基于Qt写一套皮肤引擎，基于Qt笔者写了一套皮肤引擎，但由于保密原因，该皮肤引擎不能开源，如果你实现皮肤引擎遇到问题，也欢迎提Issues给我。
 
+<img src="https://github.com/arlins/GUIFW/blob/master/support-files/1.png" alt="支付宝扫码" width="400" height="400"/>
+<img src="https://github.com/arlins/GUIFW/blob/master/support-files/4.png" alt="支付宝扫码" width="400" height="400"/>
+
 ## 框架简介
 
 下图是GUIFW的框架图，其中底层是core模块，用于为上层和外部提供最基本的支持，基于core模块可以扩展各种各样的控件，对话框等，最终形成一个完整的皮肤库
@@ -46,7 +49,7 @@ clone工程之后直接打开`guifw.sln`编译即可，注意启动工程需要�
 如果GUIFW能帮到你并且你愿意，欢迎对我支持
 
 ### 支付宝扫码
-<img src="https://github.com/arlins/Personal/blob/master/ali-pay.jpg" alt="支付宝扫码" width="300" height="300">
+<img src="https://github.com/arlins/Personal/blob/master/ali-pay.jpg" alt="支付宝扫码" width="300" height="300" />
 
 
 
