@@ -32,7 +32,7 @@ GUIFW只实现了基本框架，目前还很粗糙，存在性能以及控件支
 
 ## 详细了解
 
-待补充
+http://blog.csdn.net/sllins/article/details/38354493
 
 ## 如何编译
 
